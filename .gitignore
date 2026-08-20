@@ -1,3 +1,7 @@
 .DS_Store
 *.zip
 *.dmg
+*.apk
+*.keystore
+*.SECRET
+signing/
