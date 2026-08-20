@@ -9,16 +9,14 @@ This repo holds downloads and install instructions only — it isn't the app's s
 
 ## Download
 
-Grab the latest build from the [Releases page](../../releases/latest).
+Grab the latest build from the [Releases page](../../releases/latest). Pick your
+platform below.
 
-## Requirements
+## macOS (Apple Silicon)
 
-macOS on Apple Silicon (M1 or newer). This build does not run on Intel Macs or on
-Windows/Linux yet.
+Requires an M1 or newer Mac. Does not run on Intel Macs.
 
-## Install
-
-1. Download `Horizon.app.zip` from the release above and unzip it.
+1. Download `Horizon.app.zip` and unzip it.
 2. Drag **Horizon.app** into **Applications**.
 3. The first time you open it, macOS will block it with a message like *"Apple could
    not verify 'Horizon' is free of malware..."* — expected for a small app outside the
@@ -28,6 +26,22 @@ Windows/Linux yet.
      confirm once more, and it opens normally from then on.
    - If that section doesn't appear, open **Terminal** and run:
      `xattr -cr /Applications/Horizon.app`, then open Horizon again.
+
+## Android
+
+Requires Android 7.0 (API 24) or newer.
+
+1. Download `Horizon.apk` on your phone.
+2. Tap the downloaded file to install it. Android will block it the first time with a
+   message about installing from an unrecognized source — this is standard for any app
+   installed outside the Play Store, not specific to Horizon. Follow the prompt to allow
+   it (usually a **Settings → allow from this source** link right in the warning, then
+   go back and tap the file again).
+3. Open Horizon from your app drawer.
+
+*(This flow hasn't been verified against a real device yet, unlike the macOS steps
+above — exact wording varies more across Android versions and phone makers. If what you
+see doesn't match, let us know and we'll fix this section.)*
 
 ## Your data
 
