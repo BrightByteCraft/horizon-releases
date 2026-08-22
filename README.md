@@ -43,6 +43,18 @@ Requires Android 7.0 (API 24) or newer.
 above — exact wording varies more across Android versions and phone makers. If what you
 see doesn't match, let us know and we'll fix this section.)*
 
+## Windows
+
+A Windows installer isn't attached to every release yet — check the
+[Releases page](../../releases/latest) for a `.exe` under **Assets**. If one isn't
+there for the version you want, it hasn't been built for that release.
+
+1. Download the `Horizon_<version>_x64-setup.exe` installer and run it.
+2. Windows SmartScreen will likely warn that this is from an "unknown publisher" —
+   expected for a small app without a paid code-signing certificate, not a sign
+   anything's wrong. Click **More info → Run anyway** to continue.
+3. Open Horizon from the Start menu once installed.
+
 ## Your data
 
 Everything Horizon knows about your household lives in a single file on your own
