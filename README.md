@@ -7,6 +7,31 @@ leaves it.
 
 This repo holds downloads and install instructions only — it isn't the app's source.
 
+## Features
+
+Horizon covers a household's plan in four parts, plus the calculations underneath:
+
+- **Household** — people, income, accounts, debts, and property in one place; everything
+  else is built from this.
+- **Retirement** — a year-by-year projection of spending against income, a Monte Carlo
+  simulation run across historical market returns, and a Freedom Score summarizing how
+  ready the plan is.
+- **Children** — college cost planning against 529 and custodial accounts, sized so it
+  doesn't derail your own retirement.
+- **What if?** — a scratchpad for trying numbers: save this much for that long, see
+  where it lands.
+
+A ranked action list surfaces what to actually do next — unclaimed employer match, cash
+that should be invested, a bracket-fill Roth conversion — instead of leaving you to spot
+it yourself. Built-in strategies include Roth conversions, early 401(k) access (Rule of
+55 and 72(t) SEPP), a cash reserve to ride out a downturn, when to claim Social Security,
+mega-backdoor Roth contributions, and reverse mortgages. Tax modeling covers federal and
+state figures (all editable) and required minimum distributions. Debts and property feed
+directly into net worth, and charitable giving can be tracked as an ongoing goal. An FAQ
+page answers common questions with cited sources.
+
+Every calculation runs on your own device — see **Your data** below.
+
 ## Download
 
 Grab the latest build from the [Releases page](../../releases/latest). Pick your
